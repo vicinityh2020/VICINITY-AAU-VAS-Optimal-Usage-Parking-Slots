@@ -17,7 +17,7 @@ Adapter runs on Python 3.6.
 Adapter releases are as aau_adapter_x.y.z.py
 
 ## 0.0.1
-Start version, it works with agent-service-full-0.6.3.jar, and it receives three parking slot usage states and publishes an event with vacant parking slot account and real-time EV charging price.
+Start version, it works with agent-service-full-0.6.3.jar, and it receives three parking slot usage states and publishes an event with vacant parking slot number and real-time EV charging price.
 
 # Functionality and API
 
@@ -29,4 +29,4 @@ Return last known value and time received by the VAS. The “oid” is UUID of t
 ## Subscribe to event channel
 ### Endpoint:
             POST /objects/{oid}/events/{eid}
-Return last vacant parking slot account, EV charging price and time received by the VAS. The “oid” is UUID of the VAS and “eid” is a event identifier. Users can receive the number of free parking slot and charging price automatically.
+Return last vacant parking slot number, EV charging price and time received by the VAS. The “oid” is UUID of the VAS and “eid” is a event identifier. Users can receive the number of free parking slot and charging price automatically.
