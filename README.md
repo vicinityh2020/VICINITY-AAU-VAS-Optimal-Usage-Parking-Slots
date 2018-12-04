@@ -25,10 +25,10 @@ Start version, it works with agent-service-full-0.6.3.jar, and it receives three
 ### Endpoint:
             PUT /objects/{oid}/events/{eid}
 Publish the vacant parking slot number, EV charging price and current time. Users can receive the number of free parking slot and charging price automatically.
-### Return:
+**Return**:
 After subscribing the VAS successfully, the subscriber receives a response for instance:
-{
-"value": "3.15",
-"free": "2",
-"time": "2018-11-10",
+{  
+    "value": "3.15",  
+    "free": "2",  
+    "time": "2018-11-10"
 }
