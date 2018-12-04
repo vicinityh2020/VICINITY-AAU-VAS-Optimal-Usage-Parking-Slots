@@ -30,5 +30,5 @@ After subscribing the VAS successfully, the subscriber receives a response for i
 {  
     "value": "3.15",  
     "free": "2",  
-    "time": "2018-11-10"  
+    "time": "2018-11-10 11:30:29"  
 }
