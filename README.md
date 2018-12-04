@@ -29,4 +29,4 @@ Return last known value and time received by the VAS. The “oid” is UUID of t
 ## Subscribe to event channel
 ### Endpoint:
             POST /objects/{oid}/events/{eid}
-Return last vacant parking slot number, EV charging price and time received by the VAS. The “oid” is UUID of the VAS and “eid” is a event identifier. Users can receive the number of free parking slot and charging price automatically.
+Return last vacant parking slot number, EV charging price and time received by the VAS. The “oid” is UUID of the VAS and “eid” is an event identifier. Users can receive the number of free parking slot and charging price automatically.
